@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body {
+    width: 128rem;
+    margin: auto;
+    background: url('../assets/bg-1.png');
+    object-fit: fill;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    width: 128rem;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav a{
+    font-size: 2rem;
+    padding-right: 3.2rem ;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    font-weight: bold;
+}
+nav img{
+    margin-right: 3.2rem;
+}
+.home {
+    width: 128rem;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Colocar os itens em coluna */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+}
+.home section{
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.8rem;
+    color: white;
+    margin-bottom: 1.6rem; /* Espaço entre o h1 e o botão */
+}
+
+.home button {
+    background: transparent;
+    font-size: 1.4rem;
+    color: white;
+    border: .3rem solid white;
+    border-radius: 1rem;
+    padding: 1.2rem 3.2rem;
+    cursor: pointer;
+}
+
+.home button:hover{
+    color: #02799D;
+    font-weight: 600;
+    background: white;
+}
+.all{
+    width: 64rem;
+    margin-top: 6.4rem;
+}
+p{
+    color: white;
+    font-size: 1.8rem;
+}
