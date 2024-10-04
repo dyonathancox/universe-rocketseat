@@ -1,0 +1,50 @@
+@import url(/css/style.css);
+
+
+body{
+    background: url('../assets/bg-1.png') no-repeat center;
+    background-size: cover;
+    transition: background-image 500ms ease;
+}
+
+.home {
+    width: 128rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    margin-top: 22rem;
+
+
+    animation: topdown 700ms 350ms backwards;
+}
+.home section{
+    text-align: center;
+}
+
+.home button {
+    background: transparent;
+    font-size: 1.4rem;
+    color: white;
+    border: .3rem solid white;
+    border-radius: 1rem;
+    padding: 1.2rem 3.2rem;
+    cursor: pointer;
+    transition: all .5s ease;
+    
+}
+
+.home button:hover{
+    color: #02799D;
+    font-weight: 600;
+    background: white;
+}
+
+nav a:nth-child(2) {
+    font-weight: 700;
+    font-size: 2.4rem;
+
+    color: white;
+    border-bottom: 1px solid white;
+}

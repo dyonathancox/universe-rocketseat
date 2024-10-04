@@ -1,0 +1,15 @@
+@import url(/css/style.css);
+
+body {
+    background-image: url(../assets/universe.png);
+    transition: background-image 500ms ease;
+    background-size: cover;
+}
+
+nav a:nth-child(3) {
+    font-weight: 700;
+    font-size: 2.4rem;
+
+    color: white;
+    border-bottom: 1px solid white;
+}
